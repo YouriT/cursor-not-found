@@ -1,0 +1,19 @@
+{
+  "name": "cursor-not-found",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src",
+    "build": "rm -rf ./build && tsc",
+    "generate": "ts-node src/generate-records.ts"
+  },
+  "dependencies": {
+    "mongoose": "5.1.5"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.2.6",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}

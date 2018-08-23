@@ -1,0 +1,24 @@
+{
+    "version": "2.8.1",
+    "compilerOptions": {
+        "allowJs": true,
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "noImplicitAny": true,
+        "outDir": "build",
+        "target": "es6",
+        "lib": [
+            "es2017"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
