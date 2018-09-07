@@ -1,5 +1,7 @@
 # Mongo Bug Cursor Id Not Found
 
+This repo is inteded to reproduce in a stable way this [MongoDB bug](https://jira.mongodb.org/browse/SERVER-36808)
+
 ## How to reproduce
 
 ```bash
